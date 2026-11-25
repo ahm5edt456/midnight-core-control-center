@@ -11,6 +11,7 @@ from pathlib import Path
 from gi.repository import Adw, Gtk
 
 from midnight.pages.catalog import PAGES
+from midnight.pages.developer_tools import DeveloperToolsPage
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -89,6 +90,8 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = DiagnosticsPage()
             elif page_id == "backup":
                 page = BackupPage()
+            elif page_id == "developer":
+                page = DeveloperToolsPage()
             else:
                 page = self.build_module(
                     title, icon, description

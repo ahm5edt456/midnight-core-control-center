@@ -558,3 +558,16 @@
 .stage10-preview { background-color: #0B1923; color: #F2EEE5; font-family: monospace; padding: 14px; border-radius: 9px; }
 .stage10-status { color: #98B8A3; font-size: 12px; }
 .stage10-path { color: #91B5D1; font-family: monospace; font-size: 12px; }
+
+/* Midnight Core — Developer Tools Dashboard */
+.stage-dev-page { background-color: #050E16; }
+.stage-dev-panel { background-color: #102331; border: 1px solid #304959; border-radius: 16px; padding: 20px; }
+.stage-dev-tool { background-color: #0B1923; border: 1px solid #304959; border-radius: 10px; padding: 14px; }
+.stage-dev-container { background-color: #0B1923; border-radius: 9px; padding: 10px; }
+.stage-dev-value { color: #F2EEE5; font-weight: 600; }
+.stage-dev-installed { color: #98B8A3; font-weight: 600; }
+.stage-dev-missing { color: #D87985; font-weight: 600; }
+.stage-dev-detail { color: #A6B5BF; font-size: 12px; }
+.stage-dev-status { color: #D8BF90; font-size: 12px; }
+.stage-dev-button { background-color: #203643; color: #F2EEE5; border-radius: 9px; padding: 7px 14px; }
+.stage-dev-button:hover { background-color: #304959; }
