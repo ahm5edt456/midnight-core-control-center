@@ -1,0 +1,19 @@
+name: Python source preflight
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  static-and-unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Audit application sources and run available pure-Python unit tests
+        run: python3 scripts/release_suite.py check --project .
+      - name: Validate source archive creation
+        run: python3 scripts/release_suite.py build --project .
+# This workflow does not run a Fedora GNOME/Wayland GUI. Complete docs/TEST_PLAN.md manually.
