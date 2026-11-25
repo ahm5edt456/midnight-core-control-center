@@ -484,3 +484,32 @@
     color: #D8BF90;
     font-size: 12px;
 }
+
+/* Midnight Core — GNOME Extensions and Alias Manager */
+.stage8-panel {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 16px;
+    padding: 19px;
+}
+.stage8-list {
+    background-color: transparent;
+}
+.stage8-list row {
+    background-color: #0B1923;
+    border: 1px solid #304959;
+    border-radius: 10px;
+    margin: 4px 0;
+}
+.stage8-list row:hover { background-color: #162B39; }
+.stage8-entry-name { color: #F2EEE5; font-weight: 600; font-size: 14px; }
+.stage8-id { color: #91B5D1; font-size: 11px; }
+.stage8-command { color: #A6B5BF; font-family: monospace; font-size: 12px; }
+.stage8-status { color: #D8BF90; font-size: 12px; }
+.stage8-on { color: #98B8A3; }
+.stage8-off { color: #A6B5BF; }
+.stage8-toggle { color: #D8BF90; }
+.stage8-panel entry, .stage8-panel searchentry,
+.stage8-panel button, .stage8-list button {
+    border-radius: 8px;
+}

@@ -1,3 +1,4 @@
+from midnight.pages.extensions_aliases import ExtensionsPage, AliasesPage
 from midnight.pages.developer_settings import DeveloperSettingsPage
 from midnight.pages.boot_login import BootLoginPage
 from midnight.pages.lock_screen import LockScreenPage
@@ -78,6 +79,10 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = DeveloperSettingsPage("terminal")
             elif page_id == "neovim":
                 page = DeveloperSettingsPage("neovim")
+            elif page_id == "extensions":
+                page = ExtensionsPage()
+            elif page_id == "aliases":
+                page = AliasesPage()
             else:
                 page = self.build_module(
                     title, icon, description
