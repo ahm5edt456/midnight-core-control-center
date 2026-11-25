@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="96" height="96"
+     viewBox="0 0 96 96">
+
+    <circle cx="48" cy="48" r="42"
+            fill="none"
+            stroke="#91B5D1"
+            stroke-width="3"/>
+
+    <circle cx="48" cy="48" r="29"
+            fill="none"
+            stroke="#526B7C"
+            stroke-width="2"/>
+
+    <path d="M48 27 L69 48 L48 69 L27 48 Z"
+          fill="#D8BF90"/>
+
+</svg>

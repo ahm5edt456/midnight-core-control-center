@@ -1,0 +1,154 @@
+/* =====================================
+   MIDNIGHT CORE CONTROL CENTER
+   VERSION 0.2.0
+   ===================================== */
+
+.midnight-window {
+    background-color: #050E16;
+    color: #F2EEE5;
+    font-family: "Inter", sans-serif;
+}
+
+.midnight-header {
+    background-color: #102331;
+    color: #F2EEE5;
+    border-bottom: 1px solid #304959;
+}
+
+.midnight-sidebar {
+    background-color: #0B1923;
+    border-right: 1px solid #304959;
+}
+
+.brand-title {
+    color: #D8BF90;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.muted {
+    color: #A6B5BF;
+    font-size: 13px;
+}
+
+.midnight-navigation {
+    background-color: transparent;
+    padding: 8px 12px;
+}
+
+.midnight-navigation row {
+    background-color: transparent;
+    color: #A6B5BF;
+
+    border-radius: 10px;
+    padding: 11px 12px;
+    margin: 3px 0;
+
+    transition: background-color 180ms ease;
+}
+
+.midnight-navigation row:hover {
+    background-color: #102331;
+    color: #F2EEE5;
+}
+
+.midnight-navigation row:selected {
+    background-color: #203643;
+    color: #F2EEE5;
+}
+
+.navigation-icon {
+    color: #91B5D1;
+}
+
+.midnight-navigation row:selected image {
+    color: #D8BF90;
+}
+
+.sidebar-footer {
+    color: #718895;
+    font-size: 10px;
+    padding: 18px;
+}
+
+.midnight-content {
+    background-color: #050E16;
+}
+
+.page-title {
+    color: #F2EEE5;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hero-card {
+    background-color: #102331;
+
+    border: 1px solid #304959;
+    border-radius: 18px;
+
+    padding: 28px;
+}
+
+.hero-title {
+    color: #F2EEE5;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.accent-label {
+    color: #D8BF90;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.module-card {
+    background-color: #102331;
+
+    border: 1px solid #304959;
+    border-radius: 16px;
+
+    padding: 22px;
+
+    box-shadow: none;
+
+    transition:
+        background-color 200ms ease,
+        border-color 200ms ease;
+}
+
+.module-card:hover {
+    background-color: #172C3C;
+    border-color: #91B5D1;
+}
+
+.module-card:active {
+    background-color: #203643;
+}
+
+.accent-icon {
+    color: #91B5D1;
+}
+
+.card-title {
+    color: #F2EEE5;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.module-placeholder {
+    background-color: #102331;
+
+    border: 1px solid #304959;
+    border-radius: 18px;
+
+    padding: 24px;
+}
+
+.page-footer {
+    color: #718895;
+    font-size: 11px;
+    font-weight: 500;
+
+    margin-top: 24px;
+}
