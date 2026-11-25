@@ -1,3 +1,4 @@
+from midnight.pages.backup_restore import BackupPage
 from midnight.pages.diagnostics import DiagnosticsPage
 from midnight.pages.extensions_aliases import ExtensionsPage, AliasesPage
 from midnight.pages.developer_settings import DeveloperSettingsPage
@@ -86,6 +87,8 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = AliasesPage()
             elif page_id == "performance":
                 page = DiagnosticsPage()
+            elif page_id == "backup":
+                page = BackupPage()
             else:
                 page = self.build_module(
                     title, icon, description

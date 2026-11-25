@@ -538,3 +538,23 @@
 .stage9-memory .stage9-progress progress { background-color: #98B8A3; }
 .stage9-disk .stage9-progress progress { background-color: #D8BF90; }
 .stage9-gpu .stage9-progress progress { background-color: #AA98DB; }
+
+/* Midnight Core — Backup and Restore Manager */
+.stage10-page { background-color: #050E16; }
+.stage10-panel {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 16px;
+    padding: 22px;
+}
+.stage10-title { color: #D8BF90; font-weight: 700; font-size: 18px; }
+.stage10-muted { color: #A6B5BF; font-size: 13px; }
+.stage10-panel checkbutton { color: #F2EEE5; padding: 3px 0; }
+.stage10-panel checkbutton check:checked { background-color: #91B5D1; color: #050E16; }
+.stage10-button { background-color: #203643; color: #F2EEE5; border-radius: 9px; padding: 8px 12px; }
+.stage10-button:hover { background-color: #304959; }
+.stage10-primary { background-color: #D8BF90; color: #050E16; font-weight: bold; border-radius: 9px; padding: 10px 16px; }
+.stage10-danger { background-color: #50373D; color: #F2EEE5; border-radius: 9px; padding: 10px 16px; }
+.stage10-preview { background-color: #0B1923; color: #F2EEE5; font-family: monospace; padding: 14px; border-radius: 9px; }
+.stage10-status { color: #98B8A3; font-size: 12px; }
+.stage10-path { color: #91B5D1; font-family: monospace; font-size: 12px; }
