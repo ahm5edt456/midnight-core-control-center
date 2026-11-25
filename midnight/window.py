@@ -35,6 +35,13 @@ class MidnightWindow(Adw.ApplicationWindow):
         toolbar = Adw.ToolbarView()
 
         header = Adw.HeaderBar()
+
+        # Midnight Core — Window Controls
+        header.set_show_start_title_buttons(False)
+        header.set_show_end_title_buttons(True)
+        header.set_decoration_layout(
+            ":minimize,maximize,close"
+        )
         header.add_css_class("midnight-header")
 
         title = Adw.WindowTitle(
