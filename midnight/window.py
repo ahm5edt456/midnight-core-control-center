@@ -1,3 +1,4 @@
+from midnight.pages.overview import SystemOverview
 from pathlib import Path
 
 from gi.repository import Adw, Gtk
@@ -62,7 +63,7 @@ class MidnightWindow(Adw.ApplicationWindow):
         for page_id, title, icon, description in PAGES:
 
             if page_id == "overview":
-                page = self.build_overview()
+                page = SystemOverview()
             else:
                 page = self.build_module(
                     title, icon, description
