@@ -1,3 +1,4 @@
+from midnight.pages.lock_screen import LockScreenPage
 from midnight.pages.appearance import AppearancePage
 from midnight.pages.overview import SystemOverview
 from pathlib import Path
@@ -67,6 +68,8 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = SystemOverview()
             elif page_id == "appearance":
                 page = AppearancePage()
+            elif page_id == "lock":
+                page = LockScreenPage()
             else:
                 page = self.build_module(
                     title, icon, description

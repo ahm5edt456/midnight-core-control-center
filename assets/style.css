@@ -327,3 +327,61 @@
 .appearance-apply:hover {
     background-color: #E8D3A8;
 }
+
+/* Midnight Core — Lock Screen Manager */
+.lock-panel {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 16px;
+    padding: 22px;
+}
+.lock-row {
+    padding: 8px 0;
+}
+.lock-row dropdown {
+    background-color: #172C3C;
+    color: #F2EEE5;
+    border: 1px solid #304959;
+    border-radius: 10px;
+    min-height: 38px;
+}
+.lock-preview {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 18px;
+    padding: 28px;
+}
+.lock-preview-clock {
+    color: #F2EEE5;
+    font-size: 40px;
+    font-weight: 300;
+}
+.lock-preview-accent {
+    color: #91B5D1;
+    font-size: 14px;
+    font-weight: 700;
+}
+.lock-preview.lock-accent-0 .lock-preview-accent { color: #91B5D1; }
+.lock-preview.lock-accent-1 .lock-preview-accent { color: #D8BF90; }
+.lock-preview.lock-accent-2 .lock-preview-accent { color: #98B8A3; }
+.lock-preview.lock-accent-3 .lock-preview-accent { color: #AA98DB; }
+.lock-preview.lock-accent-4 .lock-preview-accent { color: #A6B5BF; }
+.lock-preview.lock-accent-5 .lock-preview-accent { color: #D87985; }
+.lock-primary-button {
+    background-color: #D8BF90;
+    color: #050E16;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+.lock-secondary-button {
+    background-color: #203643;
+    color: #F2EEE5;
+    border: 1px solid #526B7C;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+.lock-error {
+    color: #D87985;
+    font-size: 14px;
+}
