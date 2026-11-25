@@ -1,3 +1,4 @@
+from midnight.pages.diagnostics import DiagnosticsPage
 from midnight.pages.extensions_aliases import ExtensionsPage, AliasesPage
 from midnight.pages.developer_settings import DeveloperSettingsPage
 from midnight.pages.boot_login import BootLoginPage
@@ -83,6 +84,8 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = ExtensionsPage()
             elif page_id == "aliases":
                 page = AliasesPage()
+            elif page_id == "performance":
+                page = DiagnosticsPage()
             else:
                 page = self.build_module(
                     title, icon, description

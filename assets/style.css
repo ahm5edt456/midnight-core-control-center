@@ -513,3 +513,28 @@
 .stage8-panel button, .stage8-list button {
     border-radius: 8px;
 }
+
+/* Midnight Core — Performance and Diagnostics */
+.stage9-page { background-color: #050E16; }
+.stage9-panel, .stage9-metric {
+  background-color: #102331;
+  border: 1px solid #304959;
+  border-radius: 16px;
+  padding: 20px;
+}
+.stage9-metric-heading { color: #91B5D1; font-weight: 600; }
+.stage9-value { color: #F2EEE5; font-size: 29px; font-weight: 700; }
+.stage9-status { color: #D8BF90; font-size: 12px; }
+.stage9-output { color: #A6B5BF; font-family: monospace; font-size: 12px; }
+.stage9-key { color: #D8BF90; font-size: 12px; font-weight: 600; }
+.stage9-process-value { color: #F2EEE5; font-family: monospace; font-size: 12px; }
+.stage9-process-header { background-color: #203643; border-radius: 8px; padding: 8px; }
+.stage9-process-row { border-bottom: 1px solid #304959; padding: 8px; }
+.stage9-button { background-color: #203643; color: #F2EEE5; border-radius: 9px; padding: 7px 12px; }
+.stage9-button:hover { background-color: #304959; }
+.stage9-log { background-color: #07141D; color: #A6B5BF; font-size: 12px; padding: 12px; }
+.stage9-progress trough { min-height: 7px; background-color: #304959; border-radius: 6px; }
+.stage9-progress progress { background-color: #91B5D1; min-height: 7px; border-radius: 6px; }
+.stage9-memory .stage9-progress progress { background-color: #98B8A3; }
+.stage9-disk .stage9-progress progress { background-color: #D8BF90; }
+.stage9-gpu .stage9-progress progress { background-color: #AA98DB; }
