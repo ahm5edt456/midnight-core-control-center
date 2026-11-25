@@ -1,3 +1,4 @@
+from midnight.pages.appearance import AppearancePage
 from midnight.pages.overview import SystemOverview
 from pathlib import Path
 
@@ -64,6 +65,8 @@ class MidnightWindow(Adw.ApplicationWindow):
 
             if page_id == "overview":
                 page = SystemOverview()
+            elif page_id == "appearance":
+                page = AppearancePage()
             else:
                 page = self.build_module(
                     title, icon, description

@@ -249,3 +249,81 @@
     background-color: #203643;
     border-color: #91B5D1;
 }
+
+/* =====================================
+   MIDNIGHT CORE — APPEARANCE MANAGER
+   ===================================== */
+
+.appearance-panel {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 18px;
+    padding: 24px;
+}
+
+.appearance-row {
+    padding: 9px 0;
+}
+
+.appearance-label {
+    color: #F2EEE5;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.appearance-row dropdown,
+.appearance-row entry {
+    background-color: #172C3C;
+    color: #F2EEE5;
+    border: 1px solid #304959;
+    border-radius: 10px;
+    min-height: 40px;
+}
+
+.appearance-row dropdown:hover,
+.appearance-row entry:focus {
+    border-color: #91B5D1;
+}
+
+.appearance-wallpaper {
+    background-color: #050E16;
+    border: 1px solid #304959;
+    border-radius: 12px;
+}
+
+.appearance-choose {
+    background-color: #203643;
+    color: #F2EEE5;
+    border: 1px solid #304959;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.appearance-choose:hover {
+    border-color: #91B5D1;
+}
+
+.appearance-summary {
+    color: #A6B5BF;
+    font-size: 13px;
+}
+
+.appearance-restore {
+    background-color: #203643;
+    color: #F2EEE5;
+    border: 1px solid #526B7C;
+    border-radius: 10px;
+    padding: 10px 16px;
+}
+
+.appearance-apply {
+    background-color: #D8BF90;
+    color: #050E16;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.appearance-apply:hover {
+    background-color: #E8D3A8;
+}
