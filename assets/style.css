@@ -385,3 +385,48 @@
     color: #D87985;
     font-size: 14px;
 }
+
+/* Midnight Core — Boot & Login Manager */
+.boot-panel {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 16px;
+    padding: 22px;
+}
+.boot-line {
+    border-bottom: 1px solid #304959;
+    padding: 9px 0;
+}
+.boot-info-value {
+    color: #F2EEE5;
+    font-size: 13px;
+}
+.boot-preview {
+    background-color: #050E16;
+    border: 1px solid #304959;
+    border-radius: 12px;
+    padding: 12px;
+}
+.boot-panel dropdown {
+    background-color: #172C3C;
+    color: #F2EEE5;
+    border: 1px solid #304959;
+    border-radius: 10px;
+    min-height: 40px;
+}
+.boot-primary-button {
+    background-color: #D8BF90;
+    color: #050E16;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 11px 18px;
+}
+.boot-secondary-button {
+    background-color: #203643;
+    color: #F2EEE5;
+    border: 1px solid #526B7C;
+    border-radius: 10px;
+    padding: 9px 16px;
+}
+.boot-warning { color: #D8BF90; font-size: 12px; }
+.boot-status { color: #A6B5BF; font-size: 13px; }

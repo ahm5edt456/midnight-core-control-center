@@ -1,3 +1,4 @@
+from midnight.pages.boot_login import BootLoginPage
 from midnight.pages.lock_screen import LockScreenPage
 from midnight.pages.appearance import AppearancePage
 from midnight.pages.overview import SystemOverview
@@ -70,6 +71,8 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = AppearancePage()
             elif page_id == "lock":
                 page = LockScreenPage()
+            elif page_id == "boot":
+                page = BootLoginPage()
             else:
                 page = self.build_module(
                     title, icon, description
