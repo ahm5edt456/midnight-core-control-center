@@ -430,3 +430,57 @@
 }
 .boot-warning { color: #D8BF90; font-size: 12px; }
 .boot-status { color: #A6B5BF; font-size: 13px; }
+
+/* Midnight Core — Terminal and Neovim Manager */
+.dev-panel {
+    background-color: #102331;
+    border: 1px solid #304959;
+    border-radius: 16px;
+    padding: 22px;
+}
+.dev-row {
+    border-bottom: 1px solid #304959;
+    padding: 9px 0;
+}
+.dev-field-title {
+    color: #F2EEE5;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dev-row entry, .dev-row spinbutton {
+    color: #F2EEE5;
+    background-color: #172C3C;
+    border: 1px solid #304959;
+    border-radius: 8px;
+    min-height: 34px;
+}
+.dev-row switch:checked {
+    background-color: #91B5D1;
+}
+.dev-action {
+    background-color: #203643;
+    color: #F2EEE5;
+    border: 1px solid #304959;
+    border-radius: 9px;
+    padding: 8px 13px;
+}
+.dev-action:hover {
+    background-color: #304959;
+}
+.dev-apply {
+    background-color: #D8BF90;
+    color: #050E16;
+    font-weight: 700;
+}
+.dev-summary {
+    color: #91B5D1;
+    font-size: 13px;
+}
+.dev-status {
+    color: #98B8A3;
+    font-size: 12px;
+}
+.dev-warning {
+    color: #D8BF90;
+    font-size: 12px;
+}

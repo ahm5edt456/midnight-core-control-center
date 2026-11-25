@@ -1,3 +1,4 @@
+from midnight.pages.developer_settings import DeveloperSettingsPage
 from midnight.pages.boot_login import BootLoginPage
 from midnight.pages.lock_screen import LockScreenPage
 from midnight.pages.appearance import AppearancePage
@@ -73,6 +74,10 @@ class MidnightWindow(Adw.ApplicationWindow):
                 page = LockScreenPage()
             elif page_id == "boot":
                 page = BootLoginPage()
+            elif page_id == "terminal":
+                page = DeveloperSettingsPage("terminal")
+            elif page_id == "neovim":
+                page = DeveloperSettingsPage("neovim")
             else:
                 page = self.build_module(
                     title, icon, description
